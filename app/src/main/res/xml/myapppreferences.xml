@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Toggles">
+        <CheckBoxPreference
+            android:title="@string/location_toggle"
+            android:summary="Allow Tmber to track location."
+            android:key="location"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:title="Enable Check-ins"
+            android:summary="Allow timed check-in prompts."
+            android:key="check_in"
+            android:defaultValue="true"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>

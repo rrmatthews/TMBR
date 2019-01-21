@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Edwin\\AndroidStudioProjects\\Tmber\\app\\build\\intermediates\\res\\merged\\debug\\xml\\options_pref.xml",
+        "source": "C:\\Users\\Edwin\\AndroidStudioProjects\\Tmber\\app\\src\\main\\res\\xml\\options_pref.xml"
+    },
+    {
+        "merged": "C:\\Users\\Edwin\\AndroidStudioProjects\\Tmber\\app\\build\\intermediates\\res\\merged\\debug\\xml\\myapppreferences.xml",
+        "source": "C:\\Users\\Edwin\\AndroidStudioProjects\\Tmber\\app\\src\\main\\res\\xml\\myapppreferences.xml"
+    }
+]

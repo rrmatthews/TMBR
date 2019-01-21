@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tmber</string>
+    <string name="location_toggle">Enable Location</string>
+    <string name="home_button">Home</string>
+    <string name="toggles">Services</string>
+    <string name="contacts">Buddy</string>
+    <string name="preferences">Preferences</string>
+    <string name="stop">STOP</string>
+    <string name="start">START</string>
+    <string name="label">Select Duration</string>
+    <string name="phone">Enter Phone</string>
+    <string name="goodMsg">I\'m just letting you know that I am ok!</string>
+    <string name="badMsg">I\'m not feeling okay. If you have time, give me a call. In case of emergency, my location is:</string>
+    <string name="baddMsg">I\'m not feeling comfortable. Please give me a call or contact me when you can. </string>
+    <string name="startMsg">Hello! I am on my way to something I may or may not feel uneasy about. I\'ll be sending updates!</string>
+    <string name="nameLabel">Buddy Name: </string>
+    <string name="numberLabel">Phone #: </string>
+</resources>

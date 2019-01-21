@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Check-In Time"
+        android:summary="Minutes between check-ins (Default 30):"
+        android:defaultValue="30"
+        android:key="time"
+        android:inputType="numberDecimal"
+        />
+    <RingtonePreference
+        android:title="Notification Ringtone"
+        android:key="ring"
+        android:showDefault="true"/>
+
+</PreferenceScreen>

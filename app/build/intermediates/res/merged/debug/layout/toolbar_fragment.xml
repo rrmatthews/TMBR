@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="50dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/home"
+        android:text="@string/home_button"
+        android:textSize="10sp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/toggle_pref"
+        android:text="@string/toggles"
+        android:textSize="10sp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/contact_pref"
+        android:text="@string/contacts"
+        android:textSize="10sp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/pref"
+        android:text="@string/preferences"
+        android:textSize="10sp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/start"
+        android:id="@+id/preference_btn"
+        android:layout_centerHorizontal="true"
+        android:background="@color/start_button"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"/>
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="clock"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/picker">
+    </TimePicker>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picker"
+        android:text="@string/label"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:textSize="30sp"
+        />
+
+</RelativeLayout>

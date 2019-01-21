@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nameLabel"
+        android:textSize="20sp"
+        android:id="@+id/nameL"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numberLabel"
+        android:layout_below="@id/nameL"
+        android:textSize="20sp"
+        android:id="@+id/numL"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_toRightOf="@id/nameL"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/num"
+        android:layout_toRightOf="@id/numL"
+        android:layout_below="@id/name"
+        android:textSize="20sp"/>
+
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Select a Contact"
+        android:id="@+id/buddy"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
